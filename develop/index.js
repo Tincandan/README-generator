@@ -87,7 +87,5 @@ inquirer
         // on success.
         fs.writeFile(README_FILENAME, data, (err) =>
         err ? console.error(err) : console.log('Success!')
-
-
         );
     });
